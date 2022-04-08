@@ -106,7 +106,6 @@ build/
 
 app.js
 
-app.json
 assets/icons
 constants/capability_map.js
 
