@@ -122,3 +122,5 @@ locales/nl.json
 package-lock.json
 
 package.json
+
+constants/
