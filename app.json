@@ -1,7 +1,7 @@
 {
   "_comment": "This file is generated. Please edit .homeycompose/app.json instead.",
   "id": "com.we-volkswagen.connect",
-  "version": "0.7.7",
+  "version": "0.7.8",
   "compatibility": ">=5.0.0",
   "sdk": 3,
   "platforms": [
@@ -714,12 +714,12 @@
       {
         "id": "remote_flash",
         "title": {
-          "en": "Start/Stop Flash",
-          "nl": "Start/Stop Flits"
+          "en": "Start Flashing",
+          "nl": "Start Flitsen"
         },
         "titleFormatted": {
-          "en": "[[action_start_stop]] Flash",
-          "nl": "[[action_start_stop]] Flits"
+          "en": "Flash",
+          "nl": "Flits"
         },
         "args": [
           {
@@ -730,26 +730,6 @@
               "nl": "Selecteer apparaat"
             },
             "filter": "driver_id=audi-ev|audi-fuel|audi-hybrid|seat-fuel|seat-hybrid|skoda-ev|skoda-fuel|vw-ev|vw-fuel|vw-hybrid&capabilities=remote_flash"
-          },
-          {
-            "name": "action_start_stop",
-            "type": "dropdown",
-            "values": [
-              {
-                "id": "1",
-                "label": {
-                  "en": "Start",
-                  "nl": "Start"
-                }
-              },
-              {
-                "id": "0",
-                "label": {
-                  "en": "Stop",
-                  "nl": "Stop"
-                }
-              }
-            ]
           }
         ],
         "platforms": [
@@ -759,12 +739,12 @@
       {
         "id": "remote_flash_honk",
         "title": {
-          "en": "Start/Stop Flash & Honk",
-          "nl": "Start/Stop Flits & Toeteren"
+          "en": "Start Flash & Honk",
+          "nl": "Start Flits & Toeteren"
         },
         "titleFormatted": {
-          "en": "[[action_start_stop]] Flash & Honk",
-          "nl": "[[action_start_stop]] Flits & Toeteren"
+          "en": "Flash & Honk",
+          "nl": "Flits & Toeteren"
         },
         "args": [
           {
@@ -775,26 +755,6 @@
               "nl": "Selecteer apparaat"
             },
             "filter": "driver_id=audi-ev|audi-fuel|audi-hybrid|seat-fuel|seat-hybrid|skoda-ev|skoda-fuel|vw-ev|vw-fuel|vw-hybrid&capabilities=remote_flash_honk"
-          },
-          {
-            "name": "action_start_stop",
-            "type": "dropdown",
-            "values": [
-              {
-                "id": "1",
-                "label": {
-                  "en": "Start",
-                  "nl": "Start"
-                }
-              },
-              {
-                "id": "0",
-                "label": {
-                  "en": "Stop",
-                  "nl": "Stop"
-                }
-              }
-            ]
           }
         ],
         "platforms": [
@@ -4832,8 +4792,8 @@
       ],
       "type": "boolean",
       "title": {
-        "en": "Start/Stop Flash & Honk",
-        "nl": "Start/Stop Flits & Toeteren"
+        "en": "Start Flash & Honk",
+        "nl": "Start Flits & Toeteren"
       },
       "getable": true,
       "setable": true,
