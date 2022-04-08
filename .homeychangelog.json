@@ -121,5 +121,11 @@
   },
   "0.7.5": {
     "en": "FIX: data update"
+  },
+  "0.7.6": {
+    "en": "FIX: token refresh"
+  },
+  "0.7.7": {
+    "en": "FIX: token refresh"
   }
 }
