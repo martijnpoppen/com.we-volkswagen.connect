@@ -130,5 +130,8 @@
   },
   "0.7.8": {
     "en": "FIX: temp rounding + buttons for flash and honk"
+  },
+  "0.7.9": {
+    "en": "FIX: temp rounding to 0.5 increments | FIX: buttons vs toggle state (button will become false after 3s) - FIX: app crash when error handling fails (e.g. in case of token refreshes) | FIX: climatisation VW ID Cars | FIX: Connected has changed text | FIX: is Home and is Moving → Set isHome to false when isMoving is true"
   }
 }
