@@ -136,5 +136,8 @@
   },
   "0.7.10": {
     "en": "FIX: app crash"
+  },
+  "0.8.0": {
+    "en": "Various fixes"
   }
 }
