@@ -139,5 +139,8 @@
   },
   "0.8.0": {
     "en": "Various fixes"
+  },
+  "1.0.0": {
+    "en": "BREAK: change capabilities & trigger | FIX: boolean flowcards | FIX: skoda enyaq | FIX: logs"
   }
 }

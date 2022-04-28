@@ -1,7 +1,7 @@
 {
   "_comment": "This file is generated. Please edit .homeycompose/app.json instead.",
   "id": "com.we-volkswagen.connect",
-  "version": "0.8.0",
+  "version": "1.0.0",
   "compatibility": ">=5.0.0",
   "sdk": 3,
   "platforms": [
@@ -77,6 +77,102 @@
   "flow": {
     "triggers": [
       {
+        "id": "is_connected_changed",
+        "title": {
+          "en": "Connected has changed",
+          "nl": "Verbonden is veranderd"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=audi-ev|audi-fuel|audi-hybrid|seat-fuel|seat-hybrid|skoda-ev|skoda-fuel|vw-ev|vw-fuel|vw-hybrid&capabilities=is_connected"
+          }
+        ],
+        "tokens": [
+          {
+            "name": "is_connected",
+            "title": {
+              "en": "Is connected",
+              "nl": "Is verbonden"
+            },
+            "type": "boolean"
+          }
+        ]
+      },
+      {
+        "id": "is_home_changed",
+        "title": {
+          "en": "Is vehicle home has changed",
+          "nl": "Is voertuig thuis is veranderd"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=audi-ev|audi-fuel|audi-hybrid|seat-fuel|seat-hybrid|skoda-ev|skoda-fuel|vw-ev|vw-fuel|vw-hybrid&capabilities=is_home"
+          }
+        ],
+        "tokens": [
+          {
+            "name": "is_home",
+            "title": {
+              "en": "Vehicle is home",
+              "nl": "Voertuig is thuis"
+            },
+            "type": "boolean"
+          }
+        ]
+      },
+      {
+        "id": "is_moving_changed",
+        "title": {
+          "en": "Is vehicle moving has changed",
+          "nl": "Is voertuig in beweging is veranderd"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=audi-ev|audi-fuel|audi-hybrid|seat-fuel|seat-hybrid|skoda-ev|skoda-fuel|vw-ev|vw-fuel|vw-hybrid&capabilities=is_moving"
+          }
+        ],
+        "tokens": [
+          {
+            "name": "is_moving",
+            "title": {
+              "en": "Vehicle is moving",
+              "nl": "Voertuig in beweging"
+            },
+            "type": "boolean"
+          }
+        ]
+      },
+      {
+        "id": "is_plug_connected_changed",
+        "title": {
+          "en": "Plug connected has changed",
+          "nl": "Stekker verbonden is veranderd"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=audi-ev|audi-fuel|audi-hybrid|seat-fuel|seat-hybrid|skoda-ev|skoda-fuel|vw-ev|vw-fuel|vw-hybrid&capabilities=is_plug_connected"
+          }
+        ],
+        "tokens": [
+          {
+            "name": "is_plug_connected",
+            "title": {
+              "en": "Is plug connected",
+              "nl": "Is stekker verbonden"
+            },
+            "type": "boolean"
+          }
+        ]
+      },
+      {
         "id": "measure_charge_target_changed",
         "title": {
           "en": "Charge target has changed",
@@ -97,30 +193,6 @@
               "nl": "Laaddoel"
             },
             "type": "number"
-          }
-        ]
-      },
-      {
-        "id": "measure_connected_changed",
-        "title": {
-          "en": "Connected has changed",
-          "nl": "Verbonden is veranderd"
-        },
-        "args": [
-          {
-            "type": "device",
-            "name": "device",
-            "filter": "driver_id=audi-ev|audi-fuel|audi-hybrid|seat-fuel|seat-hybrid|skoda-ev|skoda-fuel|vw-ev|vw-fuel|vw-hybrid&capabilities=measure_connected"
-          }
-        ],
-        "tokens": [
-          {
-            "name": "measure_connected",
-            "title": {
-              "en": "Is connected",
-              "nl": "Is verbonden"
-            },
-            "type": "boolean"
           }
         ]
       },
@@ -224,54 +296,6 @@
         ]
       },
       {
-        "id": "measure_is_home_changed",
-        "title": {
-          "en": "Is vehicle home has changed",
-          "nl": "Is voertuig thuis is veranderd"
-        },
-        "args": [
-          {
-            "type": "device",
-            "name": "device",
-            "filter": "driver_id=audi-ev|audi-fuel|audi-hybrid|seat-fuel|seat-hybrid|skoda-ev|skoda-fuel|vw-ev|vw-fuel|vw-hybrid&capabilities=measure_is_home"
-          }
-        ],
-        "tokens": [
-          {
-            "name": "measure_is_home",
-            "title": {
-              "en": "Vehicle is home",
-              "nl": "Voertuig is thuis"
-            },
-            "type": "boolean"
-          }
-        ]
-      },
-      {
-        "id": "measure_is_moving_changed",
-        "title": {
-          "en": "Is vehicle moving has changed",
-          "nl": "Is voertuig in beweging is veranderd"
-        },
-        "args": [
-          {
-            "type": "device",
-            "name": "device",
-            "filter": "driver_id=audi-ev|audi-fuel|audi-hybrid|seat-fuel|seat-hybrid|skoda-ev|skoda-fuel|vw-ev|vw-fuel|vw-hybrid&capabilities=measure_is_moving"
-          }
-        ],
-        "tokens": [
-          {
-            "name": "measure_is_moving",
-            "title": {
-              "en": "Vehicle is moving",
-              "nl": "Voertuig in beweging"
-            },
-            "type": "boolean"
-          }
-        ]
-      },
-      {
         "id": "measure_oil_change_days_changed",
         "title": {
           "en": "Oil change (Days) has changed",
@@ -343,30 +367,6 @@
             },
             "type": "number",
             "example": 99
-          }
-        ]
-      },
-      {
-        "id": "measure_plug_connected_changed",
-        "title": {
-          "en": "Plug connected has changed",
-          "nl": "Stekker verbonden is veranderd"
-        },
-        "args": [
-          {
-            "type": "device",
-            "name": "device",
-            "filter": "driver_id=audi-ev|audi-fuel|audi-hybrid|seat-fuel|seat-hybrid|skoda-ev|skoda-fuel|vw-ev|vw-fuel|vw-hybrid&capabilities=measure_plug_connected"
-          }
-        ],
-        "tokens": [
-          {
-            "name": "measure_plug_connected",
-            "title": {
-              "en": "Is plug connected",
-              "nl": "Is stekker verbonden"
-            },
-            "type": "boolean"
           }
         ]
       },
@@ -446,7 +446,7 @@
     ],
     "conditions": [
       {
-        "id": "measure_connected",
+        "id": "is_connected",
         "title": {
           "en": "is connected",
           "nl": "is verbonden"
@@ -459,7 +459,7 @@
           {
             "name": "device",
             "type": "device",
-            "filter": "driver_id=audi-ev|audi-fuel|audi-hybrid|seat-fuel|seat-hybrid|skoda-ev|skoda-fuel|vw-ev|vw-fuel|vw-hybrid&capabilities=measure_connected"
+            "filter": "driver_id=audi-ev|audi-fuel|audi-hybrid|seat-fuel|seat-hybrid|skoda-ev|skoda-fuel|vw-ev|vw-fuel|vw-hybrid&capabilities=is_connected"
           }
         ],
         "platforms": [
@@ -467,7 +467,7 @@
         ]
       },
       {
-        "id": "measure_is_home",
+        "id": "is_home",
         "title": {
           "en": "is home",
           "nl": "is thuis"
@@ -480,7 +480,7 @@
           {
             "name": "device",
             "type": "device",
-            "filter": "driver_id=audi-ev|audi-fuel|audi-hybrid|seat-fuel|seat-hybrid|skoda-ev|skoda-fuel|vw-ev|vw-fuel|vw-hybrid&capabilities=measure_is_home"
+            "filter": "driver_id=audi-ev|audi-fuel|audi-hybrid|seat-fuel|seat-hybrid|skoda-ev|skoda-fuel|vw-ev|vw-fuel|vw-hybrid&capabilities=is_home"
           }
         ],
         "platforms": [
@@ -488,7 +488,7 @@
         ]
       },
       {
-        "id": "measure_is_moving",
+        "id": "is_moving",
         "title": {
           "en": "is moving",
           "nl": "is in beweging"
@@ -501,7 +501,7 @@
           {
             "name": "device",
             "type": "device",
-            "filter": "driver_id=audi-ev|audi-fuel|audi-hybrid|seat-fuel|seat-hybrid|skoda-ev|skoda-fuel|vw-ev|vw-fuel|vw-hybrid&capabilities=measure_is_moving"
+            "filter": "driver_id=audi-ev|audi-fuel|audi-hybrid|seat-fuel|seat-hybrid|skoda-ev|skoda-fuel|vw-ev|vw-fuel|vw-hybrid&capabilities=is_moving"
           }
         ],
         "platforms": [
@@ -509,7 +509,7 @@
         ]
       },
       {
-        "id": "measure_plug_connected",
+        "id": "is_plug_connected",
         "title": {
           "en": "is plug connected",
           "nl": "is stekker aangesloten"
@@ -522,7 +522,7 @@
           {
             "name": "device",
             "type": "device",
-            "filter": "driver_id=audi-ev|audi-fuel|audi-hybrid|seat-fuel|seat-hybrid|skoda-ev|skoda-fuel|vw-ev|vw-fuel|vw-hybrid&capabilities=measure_plug_connected"
+            "filter": "driver_id=audi-ev|audi-fuel|audi-hybrid|seat-fuel|seat-hybrid|skoda-ev|skoda-fuel|vw-ev|vw-fuel|vw-hybrid&capabilities=is_plug_connected"
           }
         ],
         "platforms": [
@@ -1142,6 +1142,28 @@
         {
           "type": "group",
           "label": {
+            "en": "Dev settings",
+            "nl": "Dev instellingen"
+          },
+          "children": [
+            {
+              "id": "debug_logs",
+              "type": "checkbox",
+              "label": {
+                "en": "Enable Debug",
+                "nl": "Schakel Debug in"
+              },
+              "hint": {
+                "en": "Checking this box will enable extra logging for the app developer ",
+                "nl": "Het aanzetten van deze instelling zal extra logs aanmaken voor de app ontwikkelaar"
+              },
+              "value": false
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "label": {
             "en": "Login settings",
             "nl": "Login instellingen"
           },
@@ -1188,19 +1210,13 @@
       "class": "sensor",
       "capabilities": [
         "measure_battery",
-        "measure_is_home",
+        "is_home",
         "measure_range",
         "measure_temperature",
         "remote_battery_charge"
       ],
       "capabilitiesOptions": {
         "measure_temperature": {
-          "title": {
-            "en": "Target temperature",
-            "nl": "Doel temperatuur"
-          }
-        },
-        "measure_temperature.outdoor": {
           "title": {
             "en": "Outdoor temperature",
             "nl": "Buiten temperatuur"
@@ -1483,6 +1499,28 @@
         {
           "type": "group",
           "label": {
+            "en": "Dev settings",
+            "nl": "Dev instellingen"
+          },
+          "children": [
+            {
+              "id": "debug_logs",
+              "type": "checkbox",
+              "label": {
+                "en": "Enable Debug",
+                "nl": "Schakel Debug in"
+              },
+              "hint": {
+                "en": "Checking this box will enable extra logging for the app developer ",
+                "nl": "Het aanzetten van deze instelling zal extra logs aanmaken voor de app ontwikkelaar"
+              },
+              "value": false
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "label": {
             "en": "Login settings",
             "nl": "Login instellingen"
           },
@@ -1529,13 +1567,13 @@
       "class": "sensor",
       "capabilities": [
         "locked",
-        "measure_connected",
+        "is_connected",
         "measure_distance_driven",
         "measure_fuel_level",
         "measure_inspection_days",
         "measure_inspection_distance",
-        "measure_is_home",
-        "measure_is_moving",
+        "is_home",
+        "is_moving",
         "measure_oil_change_days",
         "measure_oil_change_distance",
         "measure_oil_level",
@@ -1821,6 +1859,28 @@
         {
           "type": "group",
           "label": {
+            "en": "Dev settings",
+            "nl": "Dev instellingen"
+          },
+          "children": [
+            {
+              "id": "debug_logs",
+              "type": "checkbox",
+              "label": {
+                "en": "Enable Debug",
+                "nl": "Schakel Debug in"
+              },
+              "hint": {
+                "en": "Checking this box will enable extra logging for the app developer ",
+                "nl": "Het aanzetten van deze instelling zal extra logs aanmaken voor de app ontwikkelaar"
+              },
+              "value": false
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "label": {
             "en": "Login settings",
             "nl": "Login instellingen"
           },
@@ -1868,13 +1928,13 @@
       "capabilities": [
         "locked",
         "measure_battery",
-        "measure_connected",
+        "is_connected",
         "measure_distance_driven",
         "measure_fuel_level",
         "measure_inspection_days",
         "measure_inspection_distance",
-        "measure_is_home",
-        "measure_is_moving",
+        "is_home",
+        "is_moving",
         "measure_oil_change_days",
         "measure_oil_change_distance",
         "measure_range",
@@ -1883,12 +1943,6 @@
       ],
       "capabilitiesOptions": {
         "measure_temperature": {
-          "title": {
-            "en": "Target temperature",
-            "nl": "Doel temperatuur"
-          }
-        },
-        "measure_temperature.outdoor": {
           "title": {
             "en": "Outdoor temperature",
             "nl": "Buiten temperatuur"
@@ -2171,6 +2225,28 @@
         {
           "type": "group",
           "label": {
+            "en": "Dev settings",
+            "nl": "Dev instellingen"
+          },
+          "children": [
+            {
+              "id": "debug_logs",
+              "type": "checkbox",
+              "label": {
+                "en": "Enable Debug",
+                "nl": "Schakel Debug in"
+              },
+              "hint": {
+                "en": "Checking this box will enable extra logging for the app developer ",
+                "nl": "Het aanzetten van deze instelling zal extra logs aanmaken voor de app ontwikkelaar"
+              },
+              "value": false
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "label": {
             "en": "Login settings",
             "nl": "Login instellingen"
           },
@@ -2217,13 +2293,13 @@
       "class": "sensor",
       "capabilities": [
         "locked",
-        "measure_connected",
+        "is_connected",
         "measure_distance_driven",
         "measure_fuel_level",
         "measure_inspection_days",
         "measure_inspection_distance",
-        "measure_is_home",
-        "measure_is_moving",
+        "is_home",
+        "is_moving",
         "measure_oil_change_days",
         "measure_oil_change_distance",
         "measure_oil_level",
@@ -2509,6 +2585,28 @@
         {
           "type": "group",
           "label": {
+            "en": "Dev settings",
+            "nl": "Dev instellingen"
+          },
+          "children": [
+            {
+              "id": "debug_logs",
+              "type": "checkbox",
+              "label": {
+                "en": "Enable Debug",
+                "nl": "Schakel Debug in"
+              },
+              "hint": {
+                "en": "Checking this box will enable extra logging for the app developer ",
+                "nl": "Het aanzetten van deze instelling zal extra logs aanmaken voor de app ontwikkelaar"
+              },
+              "value": false
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "label": {
             "en": "Login settings",
             "nl": "Login instellingen"
           },
@@ -2556,13 +2654,13 @@
       "capabilities": [
         "locked",
         "measure_battery",
-        "measure_connected",
+        "is_connected",
         "measure_distance_driven",
         "measure_fuel_level",
         "measure_inspection_days",
         "measure_inspection_distance",
-        "measure_is_home",
-        "measure_is_moving",
+        "is_home",
+        "is_moving",
         "measure_oil_change_days",
         "measure_oil_change_distance",
         "measure_range",
@@ -2571,12 +2669,6 @@
       ],
       "capabilitiesOptions": {
         "measure_temperature": {
-          "title": {
-            "en": "Target temperature",
-            "nl": "Doel temperatuur"
-          }
-        },
-        "measure_temperature.outdoor": {
           "title": {
             "en": "Outdoor temperature",
             "nl": "Buiten temperatuur"
@@ -2859,6 +2951,28 @@
         {
           "type": "group",
           "label": {
+            "en": "Dev settings",
+            "nl": "Dev instellingen"
+          },
+          "children": [
+            {
+              "id": "debug_logs",
+              "type": "checkbox",
+              "label": {
+                "en": "Enable Debug",
+                "nl": "Schakel Debug in"
+              },
+              "hint": {
+                "en": "Checking this box will enable extra logging for the app developer ",
+                "nl": "Het aanzetten van deze instelling zal extra logs aanmaken voor de app ontwikkelaar"
+              },
+              "value": false
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "label": {
             "en": "Login settings",
             "nl": "Login instellingen"
           },
@@ -2905,19 +3019,13 @@
       "class": "sensor",
       "capabilities": [
         "measure_battery",
-        "measure_is_home",
+        "is_home",
         "measure_range",
         "measure_temperature",
         "remote_battery_charge"
       ],
       "capabilitiesOptions": {
         "measure_temperature": {
-          "title": {
-            "en": "Target temperature",
-            "nl": "Doel temperatuur"
-          }
-        },
-        "measure_temperature.outdoor": {
           "title": {
             "en": "Outdoor temperature",
             "nl": "Buiten temperatuur"
@@ -3200,6 +3308,28 @@
         {
           "type": "group",
           "label": {
+            "en": "Dev settings",
+            "nl": "Dev instellingen"
+          },
+          "children": [
+            {
+              "id": "debug_logs",
+              "type": "checkbox",
+              "label": {
+                "en": "Enable Debug",
+                "nl": "Schakel Debug in"
+              },
+              "hint": {
+                "en": "Checking this box will enable extra logging for the app developer ",
+                "nl": "Het aanzetten van deze instelling zal extra logs aanmaken voor de app ontwikkelaar"
+              },
+              "value": false
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "label": {
             "en": "Login settings",
             "nl": "Login instellingen"
           },
@@ -3246,13 +3376,13 @@
       "class": "sensor",
       "capabilities": [
         "locked",
-        "measure_connected",
+        "is_connected",
         "measure_distance_driven",
         "measure_fuel_level",
         "measure_inspection_days",
         "measure_inspection_distance",
-        "measure_is_home",
-        "measure_is_moving",
+        "is_home",
+        "is_moving",
         "measure_oil_change_days",
         "measure_oil_change_distance",
         "measure_oil_level",
@@ -3538,6 +3668,28 @@
         {
           "type": "group",
           "label": {
+            "en": "Dev settings",
+            "nl": "Dev instellingen"
+          },
+          "children": [
+            {
+              "id": "debug_logs",
+              "type": "checkbox",
+              "label": {
+                "en": "Enable Debug",
+                "nl": "Schakel Debug in"
+              },
+              "hint": {
+                "en": "Checking this box will enable extra logging for the app developer ",
+                "nl": "Het aanzetten van deze instelling zal extra logs aanmaken voor de app ontwikkelaar"
+              },
+              "value": false
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "label": {
             "en": "Login settings",
             "nl": "Login instellingen"
           },
@@ -3584,19 +3736,13 @@
       "class": "sensor",
       "capabilities": [
         "measure_battery",
-        "measure_is_home",
+        "is_home",
         "measure_range",
         "measure_temperature",
         "remote_battery_charge"
       ],
       "capabilitiesOptions": {
         "measure_temperature": {
-          "title": {
-            "en": "Target temperature",
-            "nl": "Doel temperatuur"
-          }
-        },
-        "measure_temperature.outdoor": {
           "title": {
             "en": "Outdoor temperature",
             "nl": "Buiten temperatuur"
@@ -3879,6 +4025,28 @@
         {
           "type": "group",
           "label": {
+            "en": "Dev settings",
+            "nl": "Dev instellingen"
+          },
+          "children": [
+            {
+              "id": "debug_logs",
+              "type": "checkbox",
+              "label": {
+                "en": "Enable Debug",
+                "nl": "Schakel Debug in"
+              },
+              "hint": {
+                "en": "Checking this box will enable extra logging for the app developer ",
+                "nl": "Het aanzetten van deze instelling zal extra logs aanmaken voor de app ontwikkelaar"
+              },
+              "value": false
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "label": {
             "en": "Login settings",
             "nl": "Login instellingen"
           },
@@ -3925,13 +4093,13 @@
       "class": "sensor",
       "capabilities": [
         "locked",
-        "measure_connected",
+        "is_connected",
         "measure_distance_driven",
         "measure_fuel_level",
         "measure_inspection_days",
         "measure_inspection_distance",
-        "measure_is_home",
-        "measure_is_moving",
+        "is_home",
+        "is_moving",
         "measure_oil_change_days",
         "measure_oil_change_distance",
         "measure_oil_level",
@@ -4217,6 +4385,28 @@
         {
           "type": "group",
           "label": {
+            "en": "Dev settings",
+            "nl": "Dev instellingen"
+          },
+          "children": [
+            {
+              "id": "debug_logs",
+              "type": "checkbox",
+              "label": {
+                "en": "Enable Debug",
+                "nl": "Schakel Debug in"
+              },
+              "hint": {
+                "en": "Checking this box will enable extra logging for the app developer ",
+                "nl": "Het aanzetten van deze instelling zal extra logs aanmaken voor de app ontwikkelaar"
+              },
+              "value": false
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "label": {
             "en": "Login settings",
             "nl": "Login instellingen"
           },
@@ -4264,13 +4454,13 @@
       "capabilities": [
         "locked",
         "measure_battery",
-        "measure_connected",
+        "is_connected",
         "measure_distance_driven",
         "measure_fuel_level",
         "measure_inspection_days",
         "measure_inspection_distance",
-        "measure_is_home",
-        "measure_is_moving",
+        "is_home",
+        "is_moving",
         "measure_oil_change_days",
         "measure_oil_change_distance",
         "measure_range",
@@ -4279,12 +4469,6 @@
       ],
       "capabilitiesOptions": {
         "measure_temperature": {
-          "title": {
-            "en": "Target temperature",
-            "nl": "Doel temperatuur"
-          }
-        },
-        "measure_temperature.outdoor": {
           "title": {
             "en": "Outdoor temperature",
             "nl": "Buiten temperatuur"
@@ -4396,6 +4580,56 @@
     }
   ],
   "capabilities": {
+    "is_connected": {
+      "platforms": [
+        "local"
+      ],
+      "type": "boolean",
+      "title": {
+        "en": "Connected",
+        "nl": "Verbonden"
+      },
+      "getable": true,
+      "setable": false,
+      "uiComponent": "sensor",
+      "icon": "assets/icons/wifi.svg"
+    },
+    "is_home": {
+      "type": "boolean",
+      "title": {
+        "en": "Is vehicle at home",
+        "nl": "Is voertuig thuis"
+      },
+      "getable": true,
+      "setable": false,
+      "uiComponent": "sensor",
+      "icon": "assets/icons/house-door.svg"
+    },
+    "is_moving": {
+      "type": "boolean",
+      "title": {
+        "en": "Is vehicle moving",
+        "nl": "Voertuig in beweging"
+      },
+      "getable": true,
+      "setable": false,
+      "uiComponent": "sensor",
+      "icon": "assets/icons/speedometer.svg"
+    },
+    "is_plug_connected": {
+      "platforms": [
+        "local"
+      ],
+      "type": "boolean",
+      "title": {
+        "en": "Plug connected",
+        "nl": "Stekker verbonden"
+      },
+      "getable": true,
+      "setable": false,
+      "uiComponent": "sensor",
+      "icon": "assets/icons/plug.svg"
+    },
     "measure_charge_target": {
       "platforms": [
         "local"
@@ -4420,20 +4654,6 @@
       "setable": false,
       "uiComponent": "sensor",
       "icon": "assets/icons/battery-full.svg"
-    },
-    "measure_connected": {
-      "platforms": [
-        "local"
-      ],
-      "type": "boolean",
-      "title": {
-        "en": "Connected",
-        "nl": "Verbonden"
-      },
-      "getable": true,
-      "setable": false,
-      "uiComponent": "sensor",
-      "icon": "assets/icons/wifi.svg"
     },
     "measure_distance_driven": {
       "platforms": [
@@ -4535,28 +4755,6 @@
       "uiComponent": "sensor",
       "icon": "assets/icons/search.svg"
     },
-    "measure_is_home": {
-      "type": "boolean",
-      "title": {
-        "en": "Is vehicle at home",
-        "nl": "Is voertuig thuis"
-      },
-      "getable": true,
-      "setable": false,
-      "uiComponent": "sensor",
-      "icon": "assets/icons/house-door.svg"
-    },
-    "measure_is_moving": {
-      "type": "boolean",
-      "title": {
-        "en": "Is vehicle moving",
-        "nl": "Voertuig in beweging"
-      },
-      "getable": true,
-      "setable": false,
-      "uiComponent": "sensor",
-      "icon": "assets/icons/speedometer.svg"
-    },
     "measure_oil_change_days": {
       "platforms": [
         "local"
@@ -4631,20 +4829,6 @@
       "setable": false,
       "uiComponent": "sensor",
       "icon": "assets/icons/droplet-half.svg"
-    },
-    "measure_plug_connected": {
-      "platforms": [
-        "local"
-      ],
-      "type": "boolean",
-      "title": {
-        "en": "Plug connected",
-        "nl": "Stekker verbonden"
-      },
-      "getable": true,
-      "setable": false,
-      "uiComponent": "sensor",
-      "icon": "assets/icons/plug.svg"
     },
     "measure_range": {
       "platforms": [
