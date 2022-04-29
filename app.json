@@ -1,7 +1,7 @@
 {
   "_comment": "This file is generated. Please edit .homeycompose/app.json instead.",
   "id": "com.we-volkswagen.connect",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "compatibility": ">=5.0.0",
   "sdk": 3,
   "platforms": [
@@ -464,6 +464,32 @@
               "nl": "Klimaat tijd"
             },
             "type": "number"
+          }
+        ]
+      },
+      {
+        "id": "measure_temperature_outdoor_changed",
+        "highlight": true,
+        "title": {
+          "en": "The outdoor temperature changed",
+          "nl": "De buiten temperatuur is veranderd"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=audi-ev|audi-fuel|audi-hybrid|seat-fuel|seat-hybrid|skoda-ev|skoda-fuel|vw-ev|vw-fuel|vw-hybrid&capabilities=measure_temperature_outdoor"
+          }
+        ],
+        "tokens": [
+          {
+            "name": "measure_temperature_outdoor",
+            "title": {
+              "en": "Outdoor temperature",
+              "nl": "Buiten temperatuur"
+            },
+            "type": "number",
+            "example": 23.5
           }
         ]
       }
@@ -1352,11 +1378,11 @@
         "measure_battery",
         "is_home",
         "measure_range",
-        "measure_temperature",
+        "measure_temperature_outdoor",
         "remote_battery_charge"
       ],
       "capabilitiesOptions": {
-        "measure_temperature": {
+        "measure_temperature_outdoor": {
           "title": {
             "en": "Outdoor temperature",
             "nl": "Buiten temperatuur"
@@ -1718,10 +1744,10 @@
         "measure_oil_change_distance",
         "measure_oil_level",
         "measure_range",
-        "measure_temperature"
+        "measure_temperature_outdoor"
       ],
       "capabilitiesOptions": {
-        "measure_temperature": {
+        "measure_temperature_outdoor": {
           "title": {
             "en": "Outside temperature",
             "nl": "Buiten temperatuur"
@@ -2078,11 +2104,11 @@
         "measure_oil_change_days",
         "measure_oil_change_distance",
         "measure_range",
-        "measure_temperature",
+        "measure_temperature_outdoor",
         "remote_battery_charge"
       ],
       "capabilitiesOptions": {
-        "measure_temperature": {
+        "measure_temperature_outdoor": {
           "title": {
             "en": "Outdoor temperature",
             "nl": "Buiten temperatuur"
@@ -2444,10 +2470,10 @@
         "measure_oil_change_distance",
         "measure_oil_level",
         "measure_range",
-        "measure_temperature"
+        "measure_temperature_outdoor"
       ],
       "capabilitiesOptions": {
-        "measure_temperature": {
+        "measure_temperature_outdoor": {
           "title": {
             "en": "Outside temperature",
             "nl": "Buiten temperatuur"
@@ -2804,11 +2830,11 @@
         "measure_oil_change_days",
         "measure_oil_change_distance",
         "measure_range",
-        "measure_temperature",
+        "measure_temperature_outdoor",
         "remote_battery_charge"
       ],
       "capabilitiesOptions": {
-        "measure_temperature": {
+        "measure_temperature_outdoor": {
           "title": {
             "en": "Outdoor temperature",
             "nl": "Buiten temperatuur"
@@ -3161,11 +3187,11 @@
         "measure_battery",
         "is_home",
         "measure_range",
-        "measure_temperature",
+        "measure_temperature_outdoor",
         "remote_battery_charge"
       ],
       "capabilitiesOptions": {
-        "measure_temperature": {
+        "measure_temperature_outdoor": {
           "title": {
             "en": "Outdoor temperature",
             "nl": "Buiten temperatuur"
@@ -3527,10 +3553,10 @@
         "measure_oil_change_distance",
         "measure_oil_level",
         "measure_range",
-        "measure_temperature"
+        "measure_temperature_outdoor"
       ],
       "capabilitiesOptions": {
-        "measure_temperature": {
+        "measure_temperature_outdoor": {
           "title": {
             "en": "Outside temperature",
             "nl": "Buiten temperatuur"
@@ -3878,11 +3904,11 @@
         "measure_battery",
         "is_home",
         "measure_range",
-        "measure_temperature",
+        "measure_temperature_outdoor",
         "remote_battery_charge"
       ],
       "capabilitiesOptions": {
-        "measure_temperature": {
+        "measure_temperature_outdoor": {
           "title": {
             "en": "Outdoor temperature",
             "nl": "Buiten temperatuur"
@@ -4244,10 +4270,10 @@
         "measure_oil_change_distance",
         "measure_oil_level",
         "measure_range",
-        "measure_temperature"
+        "measure_temperature_outdoor"
       ],
       "capabilitiesOptions": {
-        "measure_temperature": {
+        "measure_temperature_outdoor": {
           "title": {
             "en": "Outside temperature",
             "nl": "Buiten temperatuur"
@@ -4604,11 +4630,11 @@
         "measure_oil_change_days",
         "measure_oil_change_distance",
         "measure_range",
-        "measure_temperature",
+        "measure_temperature_outdoor",
         "remote_battery_charge"
       ],
       "capabilitiesOptions": {
-        "measure_temperature": {
+        "measure_temperature_outdoor": {
           "title": {
             "en": "Outdoor temperature",
             "nl": "Buiten temperatuur"
@@ -5058,6 +5084,26 @@
       "setable": false,
       "uiComponent": "sensor",
       "icon": "assets/icons/temp.svg"
+    },
+    "measure_temperature_outdoor": {
+      "type": "number",
+      "title": {
+        "en": "Outside Temperature",
+        "nl": "Buiten Temperatuur"
+      },
+      "units": {
+        "en": "°C"
+      },
+      "insights": true,
+      "desc": {
+        "en": "Outside Temperature in degrees Celsius (°C)",
+        "nl": "Buiten Temperatuur in graden Celsius (°C)"
+      },
+      "decimals": 2,
+      "chartType": "spline",
+      "getable": true,
+      "setable": false,
+      "uiComponent": "sensor"
     },
     "remote_battery_charge": {
       "platforms": [

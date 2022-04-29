@@ -148,5 +148,8 @@
   },
   "1.2.0": {
     "en": "NEW: chargeMinLimit maxChargeCurrent"
+  },
+  "1.3.0": {
+    "en": "FIX: charging & outdoor temp"
   }
 }
