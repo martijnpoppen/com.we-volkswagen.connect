@@ -1,7 +1,7 @@
 {
   "_comment": "This file is generated. Please edit .homeycompose/app.json instead.",
   "id": "com.we-volkswagen.connect",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "compatibility": ">=5.0.0",
   "sdk": 3,
   "platforms": [
@@ -76,6 +76,30 @@
   "support": "https://community.homey.app/62196",
   "flow": {
     "triggers": [
+      {
+        "id": "is_charging_changed",
+        "title": {
+          "en": "Charging has changed",
+          "nl": "Opladen is veranderd"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=audi-ev|audi-hybrid|seat-hybrid|skoda-ev|vw-ev|vw-hybrid&capabilities=is_charging"
+          }
+        ],
+        "tokens": [
+          {
+            "name": "is_charging",
+            "title": {
+              "en": "Is charging",
+              "nl": "Is aan het opladen"
+            },
+            "type": "boolean"
+          }
+        ]
+      },
       {
         "id": "is_connected_changed",
         "title": {
@@ -445,6 +469,27 @@
       }
     ],
     "conditions": [
+      {
+        "id": "is_charging",
+        "title": {
+          "en": "is charging",
+          "nl": "is aan het opladen"
+        },
+        "titleFormatted": {
+          "en": "!{{is |isn't}} charging",
+          "nl": "!{{is|is niet}} aan het opladen"
+        },
+        "args": [
+          {
+            "name": "device",
+            "type": "device",
+            "filter": "driver_id=audi-ev|audi-hybrid|seat-hybrid|skoda-ev|vw-ev|vw-hybrid&capabilities=is_charging"
+          }
+        ],
+        "platforms": [
+          "local"
+        ]
+      },
       {
         "id": "is_connected",
         "title": {
@@ -4580,6 +4625,20 @@
     }
   ],
   "capabilities": {
+    "is_charging": {
+      "platforms": [
+        "local"
+      ],
+      "type": "boolean",
+      "title": {
+        "en": "Is charging",
+        "nl": "Aan het opladen"
+      },
+      "getable": true,
+      "setable": false,
+      "uiComponent": "sensor",
+      "icon": "assets/icons/battery.svg"
+    },
     "is_connected": {
       "platforms": [
         "local"

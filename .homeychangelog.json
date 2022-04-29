@@ -142,5 +142,8 @@
   },
   "1.0.0": {
     "en": "BREAK: change capabilities & trigger | FIX: boolean flowcards | FIX: skoda enyaq | FIX: logs"
+  },
+  "1.1.0": {
+    "en": "NEW: charging + remaing time for climate and charging"
   }
 }
