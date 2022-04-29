@@ -1,7 +1,7 @@
 {
   "_comment": "This file is generated. Please edit .homeycompose/app.json instead.",
   "id": "com.we-volkswagen.connect",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "compatibility": ">=5.0.0",
   "sdk": 3,
   "platforms": [
@@ -1381,14 +1381,6 @@
         "measure_temperature_outdoor",
         "remote_battery_charge"
       ],
-      "capabilitiesOptions": {
-        "measure_temperature_outdoor": {
-          "title": {
-            "en": "Outdoor temperature",
-            "nl": "Buiten temperatuur"
-          }
-        }
-      },
       "pair": [
         {
           "id": "type",
@@ -1746,14 +1738,6 @@
         "measure_range",
         "measure_temperature_outdoor"
       ],
-      "capabilitiesOptions": {
-        "measure_temperature_outdoor": {
-          "title": {
-            "en": "Outside temperature",
-            "nl": "Buiten temperatuur"
-          }
-        }
-      },
       "pair": [
         {
           "id": "type",
@@ -2107,14 +2091,6 @@
         "measure_temperature_outdoor",
         "remote_battery_charge"
       ],
-      "capabilitiesOptions": {
-        "measure_temperature_outdoor": {
-          "title": {
-            "en": "Outdoor temperature",
-            "nl": "Buiten temperatuur"
-          }
-        }
-      },
       "pair": [
         {
           "id": "type",
@@ -2472,14 +2448,6 @@
         "measure_range",
         "measure_temperature_outdoor"
       ],
-      "capabilitiesOptions": {
-        "measure_temperature_outdoor": {
-          "title": {
-            "en": "Outside temperature",
-            "nl": "Buiten temperatuur"
-          }
-        }
-      },
       "pair": [
         {
           "id": "type",
@@ -2833,14 +2801,6 @@
         "measure_temperature_outdoor",
         "remote_battery_charge"
       ],
-      "capabilitiesOptions": {
-        "measure_temperature_outdoor": {
-          "title": {
-            "en": "Outdoor temperature",
-            "nl": "Buiten temperatuur"
-          }
-        }
-      },
       "pair": [
         {
           "id": "type",
@@ -3190,14 +3150,6 @@
         "measure_temperature_outdoor",
         "remote_battery_charge"
       ],
-      "capabilitiesOptions": {
-        "measure_temperature_outdoor": {
-          "title": {
-            "en": "Outdoor temperature",
-            "nl": "Buiten temperatuur"
-          }
-        }
-      },
       "pair": [
         {
           "id": "type",
@@ -3555,14 +3507,6 @@
         "measure_range",
         "measure_temperature_outdoor"
       ],
-      "capabilitiesOptions": {
-        "measure_temperature_outdoor": {
-          "title": {
-            "en": "Outside temperature",
-            "nl": "Buiten temperatuur"
-          }
-        }
-      },
       "pair": [
         {
           "id": "type",
@@ -3907,14 +3851,6 @@
         "measure_temperature_outdoor",
         "remote_battery_charge"
       ],
-      "capabilitiesOptions": {
-        "measure_temperature_outdoor": {
-          "title": {
-            "en": "Outdoor temperature",
-            "nl": "Buiten temperatuur"
-          }
-        }
-      },
       "pair": [
         {
           "id": "type",
@@ -4272,14 +4208,6 @@
         "measure_range",
         "measure_temperature_outdoor"
       ],
-      "capabilitiesOptions": {
-        "measure_temperature_outdoor": {
-          "title": {
-            "en": "Outside temperature",
-            "nl": "Buiten temperatuur"
-          }
-        }
-      },
       "pair": [
         {
           "id": "type",
@@ -4633,14 +4561,6 @@
         "measure_temperature_outdoor",
         "remote_battery_charge"
       ],
-      "capabilitiesOptions": {
-        "measure_temperature_outdoor": {
-          "title": {
-            "en": "Outdoor temperature",
-            "nl": "Buiten temperatuur"
-          }
-        }
-      },
       "pair": [
         {
           "id": "type",
@@ -5076,7 +4996,7 @@
       "insights": true,
       "desc": {
         "en": "Remaining climate time in min",
-        "nl": "Resterdende klimaattijd in min"
+        "nl": "Resterende klimaattijd in min"
       },
       "chartType": "spline",
       "decimals": 2,
@@ -5086,6 +5006,9 @@
       "icon": "assets/icons/temp.svg"
     },
     "measure_temperature_outdoor": {
+      "platforms": [
+        "local"
+      ],
       "type": "number",
       "title": {
         "en": "Outside Temperature",
@@ -5103,7 +5026,8 @@
       "chartType": "spline",
       "getable": true,
       "setable": false,
-      "uiComponent": "sensor"
+      "uiComponent": "sensor",
+      "icon": "assets/icons/temp.svg"
     },
     "remote_battery_charge": {
       "platforms": [
