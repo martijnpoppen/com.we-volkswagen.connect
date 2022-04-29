@@ -145,5 +145,8 @@
   },
   "1.1.0": {
     "en": "NEW: charging + remaing time for climate and charging"
+  },
+  "1.2.0": {
+    "en": "NEW: chargeMinLimit maxChargeCurrent"
   }
 }
