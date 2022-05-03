@@ -1,7 +1,7 @@
 {
   "_comment": "This file is generated. Please edit .homeycompose/app.json instead.",
   "id": "com.we-volkswagen.connect",
-  "version": "1.3.7",
+  "version": "1.3.8",
   "compatibility": ">=5.0.0",
   "sdk": 3,
   "platforms": [
@@ -1378,7 +1378,6 @@
         "measure_battery",
         "is_home",
         "measure_range",
-        "measure_temperature_outdoor",
         "remote_battery_charge"
       ],
       "pair": [
@@ -3147,7 +3146,6 @@
         "measure_battery",
         "is_home",
         "measure_range",
-        "measure_temperature_outdoor",
         "remote_battery_charge"
       ],
       "pair": [
@@ -3848,7 +3846,6 @@
         "measure_battery",
         "is_home",
         "measure_range",
-        "measure_temperature_outdoor",
         "remote_battery_charge"
       ],
       "pair": [
