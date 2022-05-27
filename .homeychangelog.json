@@ -178,5 +178,8 @@
   },
   "1.3.9": {
     "en": "Fixed FlowCard `is_charging` for type `conditions`"
+  },
+  "1.4.0": {
+    "en": "New: skoda hybrid | FIX: various fixes"
   }
 }
