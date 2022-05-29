@@ -181,5 +181,8 @@
   },
   "1.4.0": {
     "en": "New: skoda hybrid | FIX: various fixes"
+  },
+  "1.4.1": {
+    "en": "FIX: Error: invalid_capability"
   }
 }
