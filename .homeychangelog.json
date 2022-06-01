@@ -184,5 +184,8 @@
   },
   "1.4.1": {
     "en": "FIX: Error: invalid_capability"
+  },
+  "1.4.2": {
+    "en": "FIX: error in data update &  climatisation start for ID cars"
   }
 }
