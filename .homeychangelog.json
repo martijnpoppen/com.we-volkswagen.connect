@@ -187,5 +187,8 @@
   },
   "1.4.2": {
     "en": "FIX: error in data update &  climatisation start for ID cars"
+  },
+  "1.4.3": {
+    "en": "FIX: App crash"
   }
 }
