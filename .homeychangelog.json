@@ -190,5 +190,8 @@
   },
   "1.4.3": {
     "en": "FIX: App crash"
+  },
+  "1.5.0": {
+    "en": "FIX: implement 2 way communication for remote controls"
   }
 }
