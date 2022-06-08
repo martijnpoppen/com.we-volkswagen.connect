@@ -1,10 +1,9 @@
-Connect and control your VW car with Homey.
+ Connect and control your Volkswagen car with Homey.
 
 Requirements: A car with one of the following connected services:
  - VW We Connect
  - We Connect ID
  - We Charge
- - myAudi
- - Skoda Connect
- - Seat Connect
  - We Connect Go
+
+ Make sure to have a active subscription for your car
