@@ -6,10 +6,10 @@
   "platforms": [
     "local"
   ],
-  "brandColor": "#000000",
+  "brandColor": "#051f4e",
   "name": {
-    "en": "VAG Connect",
-    "nl": "VAG Connect"
+    "en": "VW We-Connect",
+    "nl": "VW We-Connect"
   },
   "description": {
     "en": "Simply stay connected",
