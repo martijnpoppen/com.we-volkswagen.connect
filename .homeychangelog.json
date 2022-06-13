@@ -205,5 +205,8 @@
   },
   "1.7.1": {
     "en": "NEW: app release"
+  },
+  "1.7.2": {
+    "en": "FIX: measure_range capability"
   }
 }
