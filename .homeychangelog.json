@@ -208,5 +208,8 @@
   },
   "1.7.2": {
     "en": "FIX: measure_range capability"
+  },
+  "1.7.3": {
+    "en": "FIX: remove is_home for ID and new Etron (not supported)"
   }
 }
