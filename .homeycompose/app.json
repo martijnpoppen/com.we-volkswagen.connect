@@ -1,13 +1,15 @@
 {
   "id": "com.we-volkswagen.connect",
-  "version": "0.7.4",
+  "version": "1.8.0",
   "compatibility": ">=5.0.0",
   "sdk": 3,
-  "platforms": ["local"],
-  "brandColor": "#000000",
+  "platforms": [
+    "local"
+  ],
+  "brandColor": "#051f4e",
   "name": {
-    "en": "VAG Connect",
-    "nl": "VAG Connect"
+    "en": "VW We-Connect",
+    "nl": "VW We-Connect"
   },
   "description": {
     "en": "Simply stay connected",
@@ -28,11 +30,15 @@
       "Seat"
     ]
   },
-  "category": ["appliances"],
-  "permissions": ["homey:manager:geolocation"],
+  "category": [
+    "appliances"
+  ],
+  "permissions": [
+    "homey:manager:geolocation"
+  ],
   "images": {
-    "large": "/assets/images/large.jpg",
-    "small": "/assets/images/small.jpg"
+    "large": "/assets/images/large.png",
+    "small": "/assets/images/small.png"
   },
   "author": {
     "name": "Martijn Poppen",
