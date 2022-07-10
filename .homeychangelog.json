@@ -220,5 +220,8 @@
   },
   "1.8.2": {
     "en": "NEW: update library + Car updates for Audi / VW / Skoda"
+  },
+  "1.9.0": {
+    "en": "NEW: skip s-pin & FIX: core fixes"
   }
 }
