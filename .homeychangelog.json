@@ -223,5 +223,8 @@
   },
   "1.9.0": {
     "en": "NEW: skip s-pin & FIX: core fixes"
+  },
+  "1.9.1": {
+    "en": "FIX: content & FIX: capabilities filter"
   }
 }
