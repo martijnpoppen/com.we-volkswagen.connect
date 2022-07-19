@@ -229,5 +229,8 @@
   },
   "1.9.2": {
     "en": "FIX: capability updates (outdoor temp + range)"
+  },
+  "1.9.3": {
+    "en": "FIX: remove outdoor temperature"
   }
 }
