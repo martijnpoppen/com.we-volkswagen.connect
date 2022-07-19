@@ -226,5 +226,8 @@
   },
   "1.9.1": {
     "en": "FIX: content & FIX: capabilities filter"
+  },
+  "1.9.2": {
+    "en": "FIX: capability updates (outdoor temp + range)"
   }
 }
