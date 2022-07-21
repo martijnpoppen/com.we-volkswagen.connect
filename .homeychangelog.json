@@ -235,5 +235,8 @@
   },
   "1.9.4": {
     "en": "FIX: range for hybrid"
+  },
+  "1.9.5": {
+    "en": "FIX: range fallback"
   }
 }
