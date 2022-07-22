@@ -241,5 +241,8 @@
   },
   "1.9.6": {
     "en": " NEW: location url & FIX: max charge current"
+  },
+  "1.9.7": {
+    "en": "FIX: range fallback"
   }
 }
