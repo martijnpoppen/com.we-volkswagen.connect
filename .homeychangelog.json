@@ -244,5 +244,8 @@
   },
   "1.9.7": {
     "en": "FIX: range fallback"
+  },
+  "1.9.8": {
+    "en": "FIX: data not updating"
   }
 }
