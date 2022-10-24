@@ -3,9 +3,7 @@
   "version": "1.9.8",
   "compatibility": ">=5.0.0",
   "sdk": 3,
-  "platforms": [
-    "local"
-  ],
+  "platforms": ["local"],
   "brandColor": "#051f4e",
   "name": {
     "en": "VW We-Connect",
@@ -30,12 +28,8 @@
       "Seat"
     ]
   },
-  "category": [
-    "appliances"
-  ],
-  "permissions": [
-    "homey:manager:geolocation"
-  ],
+  "category": ["appliances"],
+  "permissions": ["homey:manager:geolocation"],
   "images": {
     "large": "/assets/images/large.png",
     "small": "/assets/images/small.png"
@@ -64,13 +58,16 @@
     "donate": {
       "paypal": {
         "username": "martijnpoppen"
+      },
+      "bunq": {
+        "username": "martijnpoppen"
       }
     }
   },
   "bugs": {
-    "url": "https://community.homey.app/62196"
+    "url": "https://community.homey.app/t/app-pro-we-connect-myaudi-myskoda-my-seat-my-cupra/62196"
   },
   "source": "https://github.com/martijnpoppen/com.we-volkswagen.connect",
-  "homeyCommunityTopicId": 34493,
-  "support": "https://community.homey.app/62196"
+  "homeyCommunityTopicId": 62196,
+  "support": "https://community.homey.app/t/app-pro-we-connect-myaudi-myskoda-my-seat-my-cupra/62196"
 }
