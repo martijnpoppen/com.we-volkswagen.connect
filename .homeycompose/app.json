@@ -1,9 +1,11 @@
 {
   "id": "com.we-volkswagen.connect",
-  "version": "1.9.8",
+  "version": "1.9.9",
   "compatibility": ">=5.0.0",
   "sdk": 3,
-  "platforms": ["local"],
+  "platforms": [
+    "local"
+  ],
   "brandColor": "#051f4e",
   "name": {
     "en": "VW We-Connect",
@@ -28,8 +30,12 @@
       "Seat"
     ]
   },
-  "category": ["appliances"],
-  "permissions": ["homey:manager:geolocation"],
+  "category": [
+    "appliances"
+  ],
+  "permissions": [
+    "homey:manager:geolocation"
+  ],
   "images": {
     "large": "/assets/images/large.png",
     "small": "/assets/images/small.png"
