@@ -253,5 +253,8 @@
   },
   "1.9.10": {
     "en": "FIX: app category"
+  },
+  "1.9.11": {
+    "en": "REVERT: Library Update - Unstable"
   }
 }
