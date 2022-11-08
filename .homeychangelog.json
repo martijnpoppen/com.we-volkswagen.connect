@@ -256,5 +256,8 @@
   },
   "1.9.11": {
     "en": "REVERT: Library Update - Unstable"
+  },
+  "1.9.12": {
+    "en": "FIX: app crash"
   }
 }
