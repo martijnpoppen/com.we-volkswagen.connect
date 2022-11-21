@@ -259,5 +259,8 @@
   },
   "1.9.12": {
     "en": "FIX: app crash"
+  },
+  "1.10.0": {
+    "en": "- NEW: Skoda V3 API support | NEW: is climatisation on/off | - NEW: add odometer"
   }
 }
