@@ -1,7 +1,7 @@
 {
   "_comment": "This file is generated. Please edit .homeycompose/app.json instead.",
   "id": "com.we-volkswagen.connect",
-  "version": "1.10.0",
+  "version": "1.10.1",
   "compatibility": ">=5.0.0",
   "sdk": 3,
   "platforms": [
@@ -2336,20 +2336,6 @@
       "uiComponent": "sensor",
       "icon": "assets/icons/plug.svg"
     },
-    "is_plug_connected copy": {
-      "platforms": [
-        "local"
-      ],
-      "type": "boolean",
-      "title": {
-        "en": "Plug connected",
-        "nl": "Stekker verbonden"
-      },
-      "getable": true,
-      "setable": false,
-      "uiComponent": "sensor",
-      "icon": "assets/icons/plug.svg"
-    },
     "measure_charge_target": {
       "platforms": [
         "local"
@@ -2512,31 +2498,6 @@
       "setable": false,
       "uiComponent": "sensor",
       "icon": "assets/icons/geo-alt-fill.svg"
-    },
-    "measure_odo": {
-      "platforms": [
-        "local"
-      ],
-      "type": "number",
-      "title": {
-        "en": "Battery level",
-        "nl": "Batterij niveau"
-      },
-      "units": {
-        "en": "%",
-        "nl": "%"
-      },
-      "insights": true,
-      "desc": {
-        "en": "Battery level in %",
-        "nl": "Batterij niveau in %"
-      },
-      "chartType": "spline",
-      "decimals": 2,
-      "getable": true,
-      "setable": false,
-      "uiComponent": "sensor",
-      "icon": "assets/icons/battery.svg"
     },
     "measure_oil_change_days": {
       "platforms": [
