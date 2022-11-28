@@ -265,5 +265,8 @@
   },
   "1.10.1": {
     "en": "FIX: odometer"
+  },
+  "1.11.0": {
+    "en": "FIX: missing flowcards for multiple models (Cupra & Skoda)"
   }
 }
