@@ -271,5 +271,8 @@
   },
   "1.11.1": {
     "en": "FIX: revert lib update"
+  },
+  "1.11.2": {
+    "en": "FIX: update WeConnect API | FIX: update Elli Api"
   }
 }
