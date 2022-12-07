@@ -277,5 +277,8 @@
   },
   "1.11.3": {
     "en": "FIX: crashes in app due to Weconnect update"
+  },
+  "1.11.4": {
+    "en": "FIX: range + distance_driven (ID / CUPRA / ETRON)"
   }
 }
