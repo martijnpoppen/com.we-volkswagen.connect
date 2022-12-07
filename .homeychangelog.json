@@ -274,5 +274,8 @@
   },
   "1.11.2": {
     "en": "FIX: update WeConnect API | FIX: update Elli Api"
+  },
+  "1.11.3": {
+    "en": "FIX: crashes in app due to Weconnect update"
   }
 }
