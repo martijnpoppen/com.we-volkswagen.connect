@@ -286,5 +286,8 @@
   },
   "1.12.1": {
     "en": "FIX: lock/unlock status"
+  },
+  "1.12.2": {
+    "en": "FIX: location for newType and error message for lock on ID"
   }
 }
