@@ -289,5 +289,8 @@
   },
   "1.12.2": {
     "en": "FIX: location for newType and error message for lock on ID"
+  },
+  "1.12.3": {
+    "en": "FIX: remaining climate time for old API"
   }
 }
