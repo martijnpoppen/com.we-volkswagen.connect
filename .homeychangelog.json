@@ -292,5 +292,8 @@
   },
   "1.12.3": {
     "en": "FIX: remaining climate time for old API"
+  },
+  "1.12.4": {
+    "en": ">* FIX: typo"
   }
 }
