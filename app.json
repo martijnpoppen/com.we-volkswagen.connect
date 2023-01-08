@@ -1,7 +1,7 @@
 {
   "_comment": "This file is generated. Please edit .homeycompose/app.json instead.",
   "id": "com.we-volkswagen.connect",
-  "version": "1.12.4",
+  "version": "1.12.5",
   "compatibility": ">=5.0.0",
   "sdk": 3,
   "platforms": [
@@ -1516,8 +1516,11 @@
           }
         },
         {
-          "id": "add_devices",
-          "template": "add_devices"
+          "id": "add_device"
+        },
+        {
+          "id": "done",
+          "template": "done"
         },
         {
           "id": "error",
@@ -1888,8 +1891,11 @@
           }
         },
         {
-          "id": "add_devices",
-          "template": "add_devices"
+          "id": "add_device"
+        },
+        {
+          "id": "done",
+          "template": "done"
         },
         {
           "id": "error",
@@ -2256,8 +2262,11 @@
           }
         },
         {
-          "id": "add_devices",
-          "template": "add_devices"
+          "id": "add_device"
+        },
+        {
+          "id": "done",
+          "template": "done"
         },
         {
           "id": "error",

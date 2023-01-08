@@ -295,5 +295,8 @@
   },
   "1.12.4": {
     "en": ">* FIX: typo"
+  },
+  "1.12.5": {
+    "en": "FIX: measure_remaining_charge_time"
   }
 }
