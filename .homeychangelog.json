@@ -298,5 +298,8 @@
   },
   "1.12.5": {
     "en": "FIX: measure_remaining_charge_time"
+  },
+  "1.12.6": {
+    "en": "ADD: fallback for measure_range"
   }
 }
