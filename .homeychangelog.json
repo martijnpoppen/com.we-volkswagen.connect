@@ -301,5 +301,8 @@
   },
   "1.12.6": {
     "en": "ADD: fallback for measure_range"
+  },
+  "1.12.7": {
+    "en": "FIX: locked/unlocked for New cars (ID/Etron/Cupra/Enyaq)"
   }
 }
