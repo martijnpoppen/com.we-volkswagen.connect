@@ -304,5 +304,8 @@
   },
   "1.12.7": {
     "en": "FIX: locked/unlocked for New cars (ID/Etron/Cupra/Enyaq)"
+  },
+  "1.12.8": {
+    "en": "NEW: add terms and conditions message"
   }
 }
