@@ -310,5 +310,8 @@
   },
   "1.12.9": {
     "en": "FIX: negative numbers"
+  },
+  "1.13.0": {
+    "en": "NEW: update library (New API) | FIX: API error"
   }
 }
