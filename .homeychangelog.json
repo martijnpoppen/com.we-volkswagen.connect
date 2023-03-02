@@ -316,5 +316,8 @@
   },
   "1.13.1": {
     "en": "NEW: update library (New API) | FIX: API error"
+  },
+  "1.13.2": {
+    "en": "NEW: update library (New API) | FIX: API error"
   }
 }
