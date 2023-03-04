@@ -334,5 +334,8 @@
   },
   "1.14.2": {
     "en": "FIX: batteryCharge | FIX: Radius steps to 0.01"
+  },
+  "1.14.3": {
+    "en": "FIX: batteryCharge | FIX: Radius steps to 0.01"
   }
 }

@@ -1,7 +1,7 @@
 {
   "_comment": "This file is generated. Please edit .homeycompose/app.json instead.",
   "id": "com.we-volkswagen.connect",
-  "version": "1.14.2",
+  "version": "1.14.3",
   "compatibility": ">=5.0.0",
   "sdk": 3,
   "platforms": [
@@ -1449,8 +1449,8 @@
                 "en": "When Is Home is calculated Homey will check for Homey's location vs the Cars location. This allows to increase the radius (e.g. if your car is not parked close to your home)",
                 "nl": "Als Is Thuis berekend wordt zal Homey matchen tussen Homey's locatie en die van de auto. Deze optie staat toe om de radius te vergroten (bijvoorbeeld als de auto niet dichtbij huis staat)"
               },
-              "min": 1,
-              "max": 9999,
+              "min": 0.01,
+              "max": 5,
               "steps": 0.01,
               "units": {
                 "en": "kilometers"
@@ -1881,8 +1881,8 @@
                 "en": "When Is Home is calculated Homey will check for Homey's location vs the Cars location. This allows to increase the radius (e.g. if your car is not parked close to your home)",
                 "nl": "Als Is Thuis berekend wordt zal Homey matchen tussen Homey's locatie en die van de auto. Deze optie staat toe om de radius te vergroten (bijvoorbeeld als de auto niet dichtbij huis staat)"
               },
-              "min": 1,
-              "max": 9999,
+              "min": 0.01,
+              "max": 5,
               "steps": 0.01,
               "units": {
                 "en": "kilometers"
@@ -2316,8 +2316,8 @@
                 "en": "When Is Home is calculated Homey will check for Homey's location vs the Cars location. This allows to increase the radius (e.g. if your car is not parked close to your home)",
                 "nl": "Als Is Thuis berekend wordt zal Homey matchen tussen Homey's locatie en die van de auto. Deze optie staat toe om de radius te vergroten (bijvoorbeeld als de auto niet dichtbij huis staat)"
               },
-              "min": 1,
-              "max": 9999,
+              "min": 0.01,
+              "max": 5,
               "steps": 0.01,
               "units": {
                 "en": "kilometers"
