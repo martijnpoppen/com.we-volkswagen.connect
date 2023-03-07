@@ -340,5 +340,8 @@
   },
   "1.14.4": {
     "en": "FIX: batteryCharge | FIX: Radius steps to 0.01"
+  },
+  "1.14.5": {
+    "en": "NEW: apply new Homey styling to paring views | FIX: max range"
   }
 }
