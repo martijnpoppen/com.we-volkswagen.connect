@@ -343,5 +343,8 @@
   },
   "1.14.5": {
     "en": "NEW: apply new Homey styling to paring views | FIX: max range"
+  },
+  "1.15.0": {
+    "en": "NEW: update Library | NEW: update Skoda API"
   }
 }
