@@ -349,5 +349,8 @@
   },
   "1.15.1": {
     "en": "NEW: update Library | NEW: update Skoda API"
+  },
+  "1.15.2": {
+    "en": "FIX: update library "
   }
 }
