@@ -352,5 +352,8 @@
   },
   "1.15.2": {
     "en": "FIX: update library "
+  },
+  "1.15.3": {
+    "en": "FIX: invalid capability"
   }
 }
