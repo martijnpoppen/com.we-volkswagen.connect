@@ -355,5 +355,8 @@
   },
   "1.15.3": {
     "en": "FIX: invalid capability"
+  },
+  "1.15.4": {
+    "en": "FIX: handleErrors - status update failed"
   }
 }
