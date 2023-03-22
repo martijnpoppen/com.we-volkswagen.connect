@@ -358,5 +358,8 @@
   },
   "1.15.4": {
     "en": "FIX: handleErrors - status update failed"
+  },
+  "1.15.5": {
+    "en": "FIX: API"
   }
 }
