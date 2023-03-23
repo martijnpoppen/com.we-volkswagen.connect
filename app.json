@@ -1,7 +1,7 @@
 {
   "_comment": "This file is generated. Please edit .homeycompose/app.json instead.",
   "id": "com.we-volkswagen.connect",
-  "version": "1.15.5",
+  "version": "1.15.6",
   "compatibility": ">=5.0.0",
   "sdk": 3,
   "platforms": [
@@ -2600,7 +2600,7 @@
       "getable": true,
       "setable": false,
       "uiComponent": "sensor",
-      "icon": "assets/icons/battery.svg"
+      "icon": "assets/icons/lightning-charge.svg"
     },
     "is_climating": {
       "type": "boolean",
@@ -2786,7 +2786,7 @@
       "getable": true,
       "setable": false,
       "uiComponent": "sensor",
-      "icon": "assets/icons/mileage.svg"
+      "icon": "assets/icons/dice-5.svg"
     },
     "measure_fuel_level": {
       "platforms": [
@@ -2999,7 +2999,7 @@
       "getable": true,
       "setable": false,
       "uiComponent": "sensor",
-      "icon": "assets/icons/battery.svg"
+      "icon": "assets/icons/battery-half.svg"
     },
     "measure_range": {
       "platforms": [
@@ -3049,7 +3049,7 @@
       "getable": true,
       "setable": false,
       "uiComponent": "sensor",
-      "icon": "assets/icons/battery-full.svg"
+      "icon": "assets/icons/battery-charging.svg"
     },
     "measure_remaining_climate_time": {
       "platforms": [
@@ -3074,7 +3074,7 @@
       "getable": true,
       "setable": false,
       "uiComponent": "sensor",
-      "icon": "assets/icons/temp.svg"
+      "icon": "assets/icons/thermometer.svg"
     },
     "measure_temperature_outdoor": {
       "platforms": [
