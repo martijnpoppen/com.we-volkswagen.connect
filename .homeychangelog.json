@@ -364,5 +364,8 @@
   },
   "1.15.6": {
     "en": "OPT: fix icons"
+  },
+  "1.15.7": {
+    "en": "FIX: update library"
   }
 }
