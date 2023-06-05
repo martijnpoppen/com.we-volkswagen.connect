@@ -367,5 +367,8 @@
   },
   "1.15.7": {
     "en": "FIX: update library"
+  },
+  "1.16.0": {
+    "en": "NEW: add updated_at capability to prepare for ABRP"
   }
 }
