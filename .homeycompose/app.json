@@ -78,7 +78,7 @@
   "support": "https://community.homey.app/t/app-pro-we-connect-myaudi-myskoda-my-seat-my-cupra/62196",
   "api": {
     "apiHelperTool": {
-      "method": "put",
+      "method": "post",
       "path": "/apiHelperTool/"
     }
   }
