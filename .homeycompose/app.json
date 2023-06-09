@@ -75,5 +75,11 @@
   },
   "source": "https://github.com/martijnpoppen/com.we-volkswagen.connect",
   "homeyCommunityTopicId": 62196,
-  "support": "https://community.homey.app/t/app-pro-we-connect-myaudi-myskoda-my-seat-my-cupra/62196"
+  "support": "https://community.homey.app/t/app-pro-we-connect-myaudi-myskoda-my-seat-my-cupra/62196",
+  "api": {
+    "apiHelperTool": {
+      "method": "put",
+      "path": "/apiHelperTool/"
+    }
+  }
 }
