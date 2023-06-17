@@ -370,5 +370,8 @@
   },
   "1.16.0": {
     "en": "NEW: add updated_at capability to prepare for ABRP"
+  },
+  "1.17.0": {
+    "en": "NEW: Api Helper tool (settings page) | FIX: Audi login | FIX: skoda start charging"
   }
 }
