@@ -376,5 +376,8 @@
   },
   "1.18.0": {
     "en": "NEW: update library"
+  },
+  "1.18.1": {
+    "en": "FIX: API mapping | FIX: Api helper tool"
   }
 }
