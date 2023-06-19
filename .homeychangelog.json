@@ -373,5 +373,8 @@
   },
   "1.17.0": {
     "en": "NEW: Api Helper tool (settings page) | FIX: Audi login | FIX: skoda start charging"
+  },
+  "1.18.0": {
+    "en": "NEW: update library"
   }
 }
