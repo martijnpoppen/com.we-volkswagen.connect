@@ -123,3 +123,7 @@ package-lock.json
 package.json
 
 constants/
+
+api.js
+
+settings/index.html
