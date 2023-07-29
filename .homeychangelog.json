@@ -379,5 +379,8 @@
   },
   "1.18.1": {
     "en": "FIX: API mapping | FIX: Api helper tool"
+  },
+  "1.18.2": {
+    "en": "FIX: api update"
   }
 }
