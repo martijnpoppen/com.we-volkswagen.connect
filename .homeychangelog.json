@@ -391,5 +391,8 @@
   },
   "1.18.5": {
     "en": "FIX: device pairing"
+  },
+  "1.19.0": {
+    "en": "NEW: update API"
   }
 }
