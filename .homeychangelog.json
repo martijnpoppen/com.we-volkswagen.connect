@@ -394,5 +394,8 @@
   },
   "1.19.0": {
     "en": "NEW: update API"
+  },
+  "1.19.1": {
+    "en": "FIX: Seat login | FIX: Skoda | FIX: cupra| FIX: VW"
   }
 }
