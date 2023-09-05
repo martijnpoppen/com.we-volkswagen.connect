@@ -403,5 +403,8 @@
   },
   "1.20.0": {
     "en": "NEW: rewrite capabilities | FIX: multiple api fixes | FIX: API"
+  },
+  "1.20.1": {
+    "en": "FIX: pairing"
   }
 }
