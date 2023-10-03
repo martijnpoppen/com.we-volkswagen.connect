@@ -52,13 +52,16 @@
       }
     ],
     "translators": [
-      {
-        "name": "🇬🇧 Martijn Poppen"
-      },
-      {
-        "name": "🇳🇱 Martijn Poppen"
-      }
-    ]
+        {
+          "name": "🇬🇧 Martijn Poppen"
+        },
+        {
+          "name": "🇳🇱 Martijn Poppen"
+        },
+        {
+          "name": "🇮🇹 Roberto Greco"
+        }
+      ]
   },
   "contributing": {
     "donate": {
