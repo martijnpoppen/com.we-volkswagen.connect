@@ -406,5 +406,8 @@
   },
   "1.20.1": {
     "en": "FIX: pairing"
+  },
+  "1.21.0": {
+    "en": "NEW: Italian translation | NEW: update API"
   }
 }
