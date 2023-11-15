@@ -418,5 +418,8 @@
   },
   "1.22.2": {
     "en": "FIX: access token error"
+  },
+  "1.22.3": {
+    "en": "FIX: issue in action url"
   }
 }
