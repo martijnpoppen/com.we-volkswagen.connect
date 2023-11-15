@@ -415,5 +415,8 @@
   },
   "1.22.0": {
     "en": "FIX: is_charging | NEW: rewrite lock/unlock for ID/Cupra/Etron/Skoda"
+  },
+  "1.22.2": {
+    "en": "FIX: access token error"
   }
 }
