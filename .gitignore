@@ -127,3 +127,7 @@ constants/
 api.js
 
 settings/index.html
+
+locales/it.json
+
+settings/api-helper.html
