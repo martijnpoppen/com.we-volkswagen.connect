@@ -421,5 +421,8 @@
   },
   "1.22.3": {
     "en": "FIX: issue in action url"
+  },
+  "1.23.0": {
+    "en": "NEW: Update Library | NEW: add hidden API helper page"
   }
 }
