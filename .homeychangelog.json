@@ -424,5 +424,8 @@
   },
   "1.23.0": {
     "en": "NEW: Update Library | NEW: add hidden API helper page"
+  },
+  "1.23.1": {
+    "en": "FIX: api helper tool"
   }
 }
