@@ -1,7 +1,7 @@
 {
   "_comment": "This file is generated. Please edit .homeycompose/app.json instead.",
   "id": "com.we-volkswagen.connect",
-  "version": "1.23.1",
+  "version": "1.24.0",
   "compatibility": ">=5.0.0",
   "sdk": 3,
   "platforms": [
@@ -1104,6 +1104,48 @@
         ]
       },
       {
+        "id": "remote_set_interval",
+        "title": {
+          "en": "Set update interval",
+          "nl": "Stel update interval in"
+        },
+        "titleFormatted": {
+          "en": "Set update interval to [[update_interval]] minutes",
+          "nl": "Stel update interval in naar [[update_interval]] minuten"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "placeholder": {
+              "en": "Select device",
+              "nl": "Selecteer apparaat"
+            },
+            "filter": "driver_id=audi-ev|audi-fuel|audi-hybrid|seat-fuel|seat-hybrid|cupra-ev|cupra-hybrid|cupra-fuel|skoda-ev|skoda-hybrid|skoda-fuel|vw-ev|vw-fuel|vw-hybrid"
+          },
+          {
+            "name": "update_interval",
+            "type": "number",
+            "label": {
+              "en": "Update interval",
+              "nl": "Update interval",
+              "it": "Intervallo aggiornamento"
+            },
+            "min": 1,
+            "max": 3600,
+            "units": {
+              "en": "minutes",
+              "nl": "minuten",
+              "it": "minuti"
+            },
+            "value": 5
+          }
+        ],
+        "platforms": [
+          "local"
+        ]
+      },
+      {
         "id": "remote_ventilation",
         "title": {
           "en": "Start/Stop ventilation",
@@ -1540,23 +1582,6 @@
                 "it": "minuti"
               },
               "value": 5
-            },
-            {
-              "id": "force_update_interval",
-              "type": "number",
-              "label": {
-                "en": "Force Update interval (recommended: 360)",
-                "nl": "Force Update interval (aanbevolen: 360)",
-                "it": "Forza Intervallo aggiornamento (consigliato: 360)"
-              },
-              "min": 1,
-              "max": 3600,
-              "units": {
-                "en": "minutes",
-                "nl": "minuten",
-                "it": "minuti"
-              },
-              "value": 360
             }
           ]
         },
@@ -2041,23 +2066,6 @@
                 "it": "minuti"
               },
               "value": 5
-            },
-            {
-              "id": "force_update_interval",
-              "type": "number",
-              "label": {
-                "en": "Force Update interval (recommended: 360)",
-                "nl": "Force Update interval (aanbevolen: 360)",
-                "it": "Forza Intervallo aggiornamento (consigliato: 360)"
-              },
-              "min": 1,
-              "max": 3600,
-              "units": {
-                "en": "minutes",
-                "nl": "minuten",
-                "it": "minuti"
-              },
-              "value": 360
             }
           ]
         },
@@ -2545,23 +2553,6 @@
                 "it": "minuti"
               },
               "value": 5
-            },
-            {
-              "id": "force_update_interval",
-              "type": "number",
-              "label": {
-                "en": "Force Update interval (recommended: 360)",
-                "nl": "Force Update interval (aanbevolen: 360)",
-                "it": "Forza Intervallo aggiornamento (consigliato: 360)"
-              },
-              "min": 1,
-              "max": 3600,
-              "units": {
-                "en": "minutes",
-                "nl": "minuten",
-                "it": "minuti"
-              },
-              "value": 360
             }
           ]
         },

@@ -427,5 +427,8 @@
   },
   "1.23.1": {
     "en": "FIX: api helper tool"
+  },
+  "1.24.0": {
+    "en": "NEW: add interval flowcard | FIX: disable force updating (corrupting the API)"
   }
 }
