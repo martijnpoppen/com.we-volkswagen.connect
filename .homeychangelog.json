@@ -433,5 +433,8 @@
   },
   "1.24.1": {
     "en": "FIX: update library"
+  },
+  "1.24.2": {
+    "en": ">- FIX: update lib >- FIX: Flash and honk command >- FIX: lock command >- FIX: window heating >- FIX: show connected state "
   }
 }
