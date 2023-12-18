@@ -436,5 +436,8 @@
   },
   "1.24.2": {
     "en": ">- FIX: update lib >- FIX: Flash and honk command >- FIX: lock command >- FIX: window heating >- FIX: show connected state "
+  },
+  "1.24.3": {
+    "en": "FIX: prevent restarting when API returns no status"
   }
 }
