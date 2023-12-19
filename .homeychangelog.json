@@ -439,5 +439,8 @@
   },
   "1.24.3": {
     "en": "FIX: prevent restarting when API returns no status"
+  },
+  "1.24.4": {
+    "en": "FIX: update library"
   }
 }
