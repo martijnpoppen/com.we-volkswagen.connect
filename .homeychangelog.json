@@ -442,5 +442,8 @@
   },
   "1.24.4": {
     "en": "FIX: update library"
+  },
+  "1.24.5": {
+    "en": "FIX: API"
   }
 }
