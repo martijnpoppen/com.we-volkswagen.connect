@@ -448,5 +448,8 @@
   },
   "1.25.0": {
     "en": "FIX: updateAt card had wrong type, causing issue in Homey-Core"
+  },
+  "1.25.1": {
+    "en": "FIX: API parking error | FIX: last updated token"
   }
 }
