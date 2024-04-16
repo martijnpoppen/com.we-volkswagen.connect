@@ -451,5 +451,8 @@
   },
   "1.25.1": {
     "en": "FIX: API parking error | FIX: last updated token"
+  },
+  "1.25.2": {
+    "en": "FIX: update library"
   }
 }
