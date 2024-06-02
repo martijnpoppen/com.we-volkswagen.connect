@@ -454,5 +454,8 @@
   },
   "1.25.2": {
     "en": "FIX: update library"
+  },
+  "1.25.3": {
+    "en": "FIX: add logging to debug pairing"
   }
 }
