@@ -457,5 +457,8 @@
   },
   "1.25.3": {
     "en": "FIX: add logging to debug pairing"
+  },
+  "1.25.4": {
+    "en": "FIX: missing flowcards"
   }
 }

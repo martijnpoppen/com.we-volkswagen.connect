@@ -1,7 +1,7 @@
 {
   "_comment": "This file is generated. Please edit .homeycompose/app.json instead.",
   "id": "com.we-volkswagen.connect",
-  "version": "1.25.3",
+  "version": "1.25.4",
   "compatibility": ">=5.0.0",
   "sdk": 3,
   "platforms": [
@@ -98,7 +98,7 @@
           {
             "type": "device",
             "name": "device",
-            "filter": "driver_id=audi-ev|audi-hybrid|seat-hybrid|cupra-ev|skoda-ev|skoda-hybrid|vw-ev|vw-hybrid&capabilities=is_charging"
+            "filter": "driver_id=audi-ev|audi-hybrid|seat-hybrid|cupra-ev|cupra-hybrid|skoda-ev|skoda-hybrid|vw-ev|vw-hybrid&capabilities=is_charging"
           }
         ],
         "tokens": [
@@ -122,7 +122,7 @@
           {
             "type": "device",
             "name": "device",
-            "filter": "driver_id=audi-ev|audi-hybrid|seat-hybrid|cupra-ev|skoda-ev|skoda-hybrid|vw-ev|vw-hybrid&capabilities=is_climating"
+            "filter": "driver_id=audi-ev|audi-hybrid|seat-hybrid|cupra-ev|cupra-hybrid|skoda-ev|skoda-hybrid|vw-ev|vw-hybrid&capabilities=is_climating"
           }
         ],
         "tokens": [
@@ -218,7 +218,7 @@
           {
             "type": "device",
             "name": "device",
-            "filter": "driver_id=audi-ev|audi-fuel|audi-hybrid|seat-fuel|seat-hybrid|cupra-ev|skoda-ev|skoda-hybrid|vw-ev|vw-fuel|vw-hybrid&capabilities=is_plug_connected"
+            "filter": "driver_id=audi-ev|audi-fuel|audi-hybrid|seat-fuel|seat-hybrid|cupra-ev|cupra-hybrid|skoda-ev|skoda-hybrid|vw-ev|vw-fuel|vw-hybrid&capabilities=is_plug_connected"
           }
         ],
         "tokens": [
@@ -242,7 +242,7 @@
           {
             "type": "device",
             "name": "device",
-            "filter": "driver_id=audi-ev|audi-hybrid|seat-hybrid|cupra-ev|skoda-ev|skoda-hybrid|vw-ev|vw-hybrid&capabilities=measure_charge_power"
+            "filter": "driver_id=audi-ev|audi-hybrid|seat-hybrid|cupra-ev|cupra-hybrid|skoda-ev|skoda-hybrid|vw-ev|vw-hybrid&capabilities=measure_charge_power"
           }
         ],
         "tokens": [
@@ -266,7 +266,7 @@
           {
             "type": "device",
             "name": "device",
-            "filter": "driver_id=audi-ev|audi-hybrid|seat-hybrid|cupra-ev|skoda-ev|skoda-hybrid|vw-ev|vw-hybrid&capabilities=measure_charge_rate"
+            "filter": "driver_id=audi-ev|audi-hybrid|seat-hybrid|cupra-ev|cupra-hybrid|skoda-ev|skoda-hybrid|vw-ev|vw-hybrid&capabilities=measure_charge_rate"
           }
         ],
         "tokens": [
@@ -290,7 +290,7 @@
           {
             "type": "device",
             "name": "device",
-            "filter": "driver_id=audi-ev|audi-hybrid|seat-hybrid|cupra-ev|skoda-ev|skoda-hybrid|vw-ev|vw-hybrid&capabilities=measure_charge_target"
+            "filter": "driver_id=audi-ev|audi-hybrid|seat-hybrid|cupra-ev|cupra-hybrid|skoda-ev|skoda-hybrid|vw-ev|vw-hybrid&capabilities=measure_charge_target"
           }
         ],
         "tokens": [
@@ -538,7 +538,7 @@
           {
             "type": "device",
             "name": "device",
-            "filter": "driver_id=audi-ev|audi-hybrid|seat-hybrid|cupra-ev|skoda-ev|skoda-hybrid|vw-ev|vw-hybrid&capabilities=measure_remaining_charge_time"
+            "filter": "driver_id=audi-ev|audi-hybrid|seat-hybrid|cupra-ev|cupra-hybrid|skoda-ev|skoda-hybrid|vw-ev|vw-hybrid&capabilities=measure_remaining_charge_time"
           }
         ],
         "tokens": [
@@ -562,7 +562,7 @@
           {
             "type": "device",
             "name": "device",
-            "filter": "driver_id=audi-ev|audi-hybrid|seat-hybrid|cupra-ev|skoda-ev|skoda-hybrid|vw-ev|vw-hybrid&capabilities=measure_remaining_climate_time"
+            "filter": "driver_id=audi-ev|audi-hybrid|seat-hybrid|cupra-ev|cupra-hybrid|skoda-ev|skoda-hybrid|vw-ev|vw-hybrid&capabilities=measure_remaining_climate_time"
           }
         ],
         "tokens": [
@@ -632,7 +632,7 @@
           {
             "name": "device",
             "type": "device",
-            "filter": "driver_id=audi-ev|audi-hybrid|seat-hybrid|cupra-ev|skoda-ev|skoda-hybrid|vw-ev|vw-hybrid&capabilities=is_charging"
+            "filter": "driver_id=audi-ev|audi-hybrid|seat-hybrid|cupra-ev|cupra-hybrid|skoda-ev|skoda-hybrid|vw-ev|vw-hybrid&capabilities=is_charging"
           }
         ],
         "platforms": [
@@ -653,7 +653,7 @@
           {
             "name": "device",
             "type": "device",
-            "filter": "driver_id=audi-ev|audi-hybrid|seat-hybrid|cupra-ev|skoda-ev|skoda-hybrid|vw-ev|vw-hybrid&capabilities=is_climating"
+            "filter": "driver_id=audi-ev|audi-hybrid|seat-hybrid|cupra-ev|cupra-hybrid|skoda-ev|skoda-hybrid|vw-ev|vw-hybrid&capabilities=is_climating"
           }
         ],
         "platforms": [
@@ -674,7 +674,7 @@
           {
             "name": "device",
             "type": "device",
-            "filter": "driver_id=audi-ev|audi-fuel|audi-hybrid|seat-fuel|seat-hybrid|cupra-ev|cupra-fuel|skoda-ev|skoda-fuel|skoda-hybrid|vw-ev|vw-fuel|vw-hybrid&capabilities=is_connected"
+            "filter": "driver_id=audi-ev|audi-fuel|audi-hybrid|seat-fuel|seat-hybrid|cupra-ev|cupra-hybrid|cupra-fuel|skoda-ev|skoda-fuel|skoda-hybrid|vw-ev|vw-fuel|vw-hybrid&capabilities=is_connected"
           }
         ],
         "platforms": [
@@ -716,7 +716,7 @@
           {
             "name": "device",
             "type": "device",
-            "filter": "driver_id=audi-ev|audi-fuel|audi-hybrid|seat-fuel|seat-hybrid|cupra-ev|cupra-fuel|skoda-hybrid|skoda-ev|skoda-fuel|vw-ev|vw-fuel|vw-hybrid&capabilities=is_moving"
+            "filter": "driver_id=audi-ev|audi-fuel|audi-hybrid|seat-fuel|seat-hybrid|cupra-ev|cupra-hybrid|cupra-fuel|skoda-hybrid|skoda-ev|skoda-fuel|vw-ev|vw-fuel|vw-hybrid&capabilities=is_moving"
           }
         ],
         "platforms": [
@@ -737,7 +737,7 @@
           {
             "name": "device",
             "type": "device",
-            "filter": "driver_id=audi-ev|audi-fuel|audi-hybrid|seat-fuel|seat-hybrid|cupra-ev|cupra-fuel|skoda-hybrid|skoda-ev|skoda-fuel|vw-ev|vw-fuel|vw-hybrid&capabilities=is_plug_connected"
+            "filter": "driver_id=audi-ev|audi-fuel|audi-hybrid|seat-fuel|seat-hybrid|cupra-ev|cupra-hybrid|cupra-fuel|skoda-hybrid|skoda-ev|skoda-fuel|vw-ev|vw-fuel|vw-hybrid&capabilities=is_plug_connected"
           }
         ],
         "platforms": [
@@ -809,7 +809,7 @@
               "en": "Select device",
               "nl": "Selecteer apparaat"
             },
-            "filter": "driver_id=audi-ev|audi-hybrid|seat-hybrid|cupra-ev|skoda-ev|vw-ev|vw-fuel|vw-hybrid&capabilities=remote_charge_min_limit"
+            "filter": "driver_id=audi-ev|audi-hybrid|seat-hybrid|cupra-ev|cupra-hybrid|skoda-ev|vw-ev|vw-fuel|vw-hybrid&capabilities=remote_charge_min_limit"
           },
           {
             "type": "number",
@@ -1055,7 +1055,7 @@
               "en": "Select device",
               "nl": "Selecteer apparaat"
             },
-            "filter": "driver_id=audi-ev|audi-hybrid|seat-hybrid|cupra-ev|skoda-ev|vw-ev|vw-fuel|vw-hybrid&capabilities=remote_max_charge_current"
+            "filter": "driver_id=audi-ev|audi-hybrid|seat-hybrid|cupra-ev|cupra-hybrid|skoda-ev|vw-ev|vw-fuel|vw-hybrid&capabilities=remote_max_charge_current"
           },
           {
             "name": "limit",
