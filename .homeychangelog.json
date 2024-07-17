@@ -463,5 +463,8 @@
   },
   "1.26.1": {
     "en": "FIX: missing flowcards"
+  },
+  "1.26.2": {
+    "en": "FIX: distance driven for all models"
   }
 }
