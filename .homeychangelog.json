@@ -466,5 +466,8 @@
   },
   "1.26.2": {
     "en": "FIX: distance driven for all models"
+  },
+  "1.26.3": {
+    "en": " FIX: mapping"
   }
 }
