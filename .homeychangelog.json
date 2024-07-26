@@ -469,5 +469,8 @@
   },
   "1.26.3": {
     "en": " FIX: mapping"
+  },
+  "1.26.5": {
+    "en": " FIX: fallback mapping"
   }
 }
