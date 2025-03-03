@@ -472,5 +472,8 @@
   },
   "1.26.5": {
     "en": " FIX: fallback mapping"
+  },
+  "1.28.0": {
+    "en": "ADD: deprecation info message to timeline. "
   }
 }
